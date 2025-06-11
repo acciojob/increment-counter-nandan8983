@@ -4,5 +4,5 @@ const incrementBtn = document.getElementById("incrementBtn");
 
 incrementBtn.addEventListener("click", () => {
 	alert(counter.textContent); 
-    counter.textContent = parseInt(counter.textContent) + 1; 
+    counter.textContent = Number(counter.textContent) + 1; 
 });
